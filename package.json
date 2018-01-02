@@ -1,0 +1,14 @@
+{
+  "name": "t.pe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florent Philippe",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3"
+  }
+}

@@ -1,0 +1,114 @@
+/* Master stylesheet */
+
+/* Importing fonts */
+
+@font-face {
+  font-family: LatoRegular;
+  src: url(./fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: LemonMilkRegular;
+  src: url(./fonts/lemon_milk/LemonMilk.otf);
+}
+
+@font-face {
+  font-family: RalewayRegular;
+  src: url(./fonts/raleway/Raleway-Regular.ttf);
+}
+
+
+
+/* STYLESHEET CONTENT */
+
+/* Fonts set up */
+
+h1 {
+  font-family: LemonMilkRegular;
+  font-size: 4rem;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: LemonMilkRegular;
+  font-size: 2rem;
+  margin-bottom: 70px;
+}
+
+p {
+  font-family: LatoRegular;
+  color: #424242;
+  font-size: 1.25rem;
+}
+
+.white-font {
+  color: #fff;
+}
+
+/* Navbar */
+
+.navbar-font {
+  font-family: LatoRegular;
+
+}
+
+/* Cover section */
+
+#main-title {
+  color: #fff;
+  margin-top: 25vh;
+}
+
+
+#cover {
+  height: auto;
+  min-height: 100vh;
+  background-color: #64B5F6;
+}
+
+/* Introduction */
+
+#introduction {
+  background-color: #FAFAFA;
+  height: auto;
+  min-height: 75vh;
+}
+
+#intro-container {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+/* Log book section */
+
+#log-book {
+  margin-top: 64px;
+  height: auto;
+  min-height: 100vh;
+}
+
+.quote {
+  font-family: LemonMilkRegular;
+  font-size: 1.4rem;
+}
+
+.author {
+  font-family: LatoRegular;
+}
+
+#pesquet-quote-card {
+  background-color: #F44336;
+}
+
+#t-video {
+  width: 100%;
+  height: 37%;
+  margin-top: 30px;
+}
+
+
+/* bootstrap modifs */
+
+.jumbotron {
+  margin: 0px;
+}
