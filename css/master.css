@@ -64,6 +64,11 @@ p {
   height: auto;
   min-height: 100vh;
   background-color: #64B5F6;
+  /*background-image: url("../assets/image/t-launch-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%; */
+
 }
 
 /* Introduction */
