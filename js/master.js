@@ -1,6 +1,6 @@
 //Master js file
 
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function(){
 
   //Effect on tile section => scrollreveal.js
   window.sr = ScrollReveal({ reset: true, viewFactor: 0.6});
