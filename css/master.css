@@ -88,9 +88,9 @@ p {
 /* Log book section */
 
 #log-book {
-  margin-top: 64px;
+  margin-top: 65px;
   height: auto;
-  min-height: 100vh;
+  margin-bottom: 10vh;
 }
 
 .quote {
@@ -112,9 +112,40 @@ p {
   margin-top: 30px;
 }
 
+/* ISS section */
+#iss-section {
+  background-image: url("../assets/image/iss-earth.jpg");
+  background-size: cover;
+  position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  /*filter: blur(5px);*/
+
+  min-height: 175vh;
+}
+
+#iss-description {
+  padding-top: 100vh;
+}
+
+#iss-text {
+  filter: blur(-500px) !important;
+}
+
+#iss-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 
 /* bootstrap modifs */
 
 .jumbotron {
   margin: 0px;
+}
+
+.container {
+  margin-bottom: 0px;
 }
