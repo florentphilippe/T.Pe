@@ -116,27 +116,35 @@ p {
 #iss-section {
   background-image: url("../assets/image/iss-earth.jpg");
   background-size: cover;
-  position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  /*filter: blur(5px);*/
+  min-height: 200vh;
+  max-width: 100%;
+  overflow: hidden;
+  
+}
 
-  min-height: 175vh;
+#iss-section-container  {
+  overflow: hidden;
+  width: 100%;
 }
 
 #iss-description {
-  padding-top: 100vh;
-}
+  position: absolute;
+  z-index: 5;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-#iss-text {
-  filter: blur(-500px) !important;
 }
 
 #iss-title {
   color: #fff;
-  text-align: center;
   margin-bottom: 0px;
+  margin-top: 100vh;
 }
 
 
