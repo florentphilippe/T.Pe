@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   $(window).scroll(function(e) {
     // Get scroll position
-    var distanceScrolled = $(window).scrollTop() - toTop - 75;
+    var distanceScrolled = $(window).scrollTop() - toTop - 700;
 
     console.log(distanceScrolled);
     

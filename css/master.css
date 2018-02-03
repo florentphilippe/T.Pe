@@ -18,6 +18,11 @@
 }
 
 @font-face {
+  font-family: LemonMilkBold;
+  src: url(../fonts/lemon_milk/LemonMilkbold.otf);
+}
+
+@font-face {
   font-family: RalewayRegular;
   src: url(../fonts/raleway/Raleway-Regular.ttf);
 }
@@ -60,20 +65,25 @@ p {
 /* Cover section */
 
 #main-title {
+  font-family: LemonMilkBold;
   color: #fff;
-  margin-top: 25vh;
   text-align: center;
+  border-style: solid;
+  border-width: 5px;
 }
 
 
 #cover {
   height: auto;
   min-height: 100vh;
-  background-color: #64B5F6;
-  /*background-image: url("../assets/image/t-launch-1.jpg");
+  /*background-color: #64B5F6;  */
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/image/t-pesquet-cockpit.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100%; */
+  background-size: 100%; 
+  background-attachment: fixed;
 
 }
 
@@ -113,8 +123,7 @@ p {
 
 #t-video {
   width: 100%;
-  height: 37%;
-  margin-top: 30px;
+  height: 200px;
 }
 
 /* ISS section */
@@ -124,7 +133,7 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  min-height: 185vh;
+  min-height: 210vh;
   max-width: 100%;
   overflow: hidden;
   
@@ -148,15 +157,15 @@ p {
 
 #iss-title {
   color: #fff;
-  margin-bottom: 0px;
-  margin-top: 100vh;
-  margin-bottom: 20vh;
+  margin-top: 125vh;
+  margin-bottom: 10vh;
 }
 
 #iss-text {
   font-family: LatoBlack;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 
@@ -168,4 +177,8 @@ p {
 
 .container {
   margin-bottom: 0px;
+}
+
+.card {
+  margin-bottom: 10px;
 }
