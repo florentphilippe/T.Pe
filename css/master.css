@@ -82,7 +82,7 @@ p {
   background-image: url("../assets/image/t-pesquet-cockpit.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100%; 
+  background-size: cover; 
   background-attachment: fixed;
 
 }
@@ -134,6 +134,7 @@ p {
   background-attachment: fixed;
   background-position: bottom;
   min-height: 210vh;
+  height: auto;
   max-width: 100%;
   overflow: hidden;
   
@@ -166,6 +167,16 @@ p {
   color: #fff;
   font-size: 2rem;
   color: #ffffff;
+}
+
+#iss-components {
+  height: auto;
+  min-height: 100vh;
+}
+
+.iss-section-title  {
+  margin-top: 10vh;
+  margin-bottom: 7vh;
 }
 
 
