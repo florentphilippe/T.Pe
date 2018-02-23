@@ -51,10 +51,6 @@ p {
   font-size: 1.25rem;
 }
 
-.white-font {
-  color: #fff;
-}
-
 /* Navbar */
 
 .navbar-font {
@@ -109,12 +105,14 @@ p {
 }
 
 .quote {
-  font-family: LemonMilkRegular;
-  font-size: 1.4rem;
+  font-family: LemonMilkRegular !important;
+  font-size: 1.4rem !important;
+  color: #fff;
 }
 
 .author {
-  font-family: LatoRegular;
+  /* font-family: LatoRegular; */
+  color: white;
 }
 
 #pesquet-quote-card {
@@ -206,11 +204,7 @@ p {
   height: auto;
   min-height: 60vh;
   width: 100%;
-}
-
-.white-div  {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 10px; 
 }
 
 .trainning-div-text {
@@ -295,6 +289,28 @@ p {
   background-position: center;
 }
 
+/* Risks Section */
+
+.risk-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.risk-img {
+  max-height: 500px;
+}
+
+.risk-text  {
+  min-height: 100vh;
+  height: auto;
+}
+
+#risk-summup-img  {
+  height: auto;
+  margin-bottom: 50px;
+  display: flex;
+justify-content: center;
+}
 
 /* bootstrap modifs */
 
@@ -312,6 +328,21 @@ p {
 
 .container-fluid {
   width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
 }
+
+.card-text  {
+  font-family: LatoRegular;
+  font-size: 1.1rem;
+}
+
+.row  {
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+
+
 
 
