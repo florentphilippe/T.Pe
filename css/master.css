@@ -309,7 +309,36 @@ p {
   height: auto;
   margin-bottom: 50px;
   display: flex;
-justify-content: center;
+  justify-content: center;
+}
+
+/* Footer */
+#page-footer  {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-color: #263238;
+  width: 100%;
+}
+
+#footer-title {
+  font-family: LatoBlack;
+  color: #fff;
+} 
+
+.footer-text  {
+  font-family: LatoRegular;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.link {
+  text-decoration: underline;
+} 
+
+#page-footer-light {
+  background-color: #212b30;
+  height: 70px;
+  padding-top: 20px;
 }
 
 /* bootstrap modifs */
