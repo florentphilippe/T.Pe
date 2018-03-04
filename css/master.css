@@ -325,6 +325,10 @@ p {
   align-items: center;
 }
 
+#experiment-video {
+  width: 900px;
+}
+
 /* Footer */
 #page-footer  {
   padding-top: 70px;
