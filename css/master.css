@@ -177,6 +177,11 @@ p {
   margin-bottom: 7vh;
 }
 
+#water-cycle  {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
 /*Training section*/
 #training-title-section {
   width: 100%;
