@@ -329,6 +329,12 @@ p {
   width: 900px;
 }
 
+/* Experiment section */
+#experiment-section {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
 /* Footer */
 #page-footer  {
   padding-top: 70px;
