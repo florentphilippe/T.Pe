@@ -1,6 +1,6 @@
 # T.Pe
 A website about Thomas Pesquet spacetrip during Proxima mission.  
-Check it out here : [tpe.netlify.com]()  
+Check it out here : [https://tpe.netlify.com/]()  
 Content by Juliette Jahan, Martin Brun & Florent Philippe. 
   
 
